@@ -37,7 +37,7 @@ public class Main {
             Filme filme = ingresso.getFilme();
             ClienteCompra clienteCompra = new CompraIngressoDAO(ingresso, pessoa, informacoesCompraDTO.getValor(), filme, atomicInteger.get()).create();
             sessaoFilme.setFilme(filme);
-            controllerCompra.imprimirPedido(clienteCompra);
+            controllerCompra.imprimirIngresso(clienteCompra);
             sessaoFilme.decrementaContandor();
             atomicInteger.incrementAndGet();
         }

@@ -4,7 +4,7 @@ import main.api.clientecompra.ClienteCompra;
 
 public class CompraClientePrinter {
 
-    public static void imprimirPedido(ClienteCompra clienteCompra) throws Exception {
+    public static void imprimirIngresso(ClienteCompra clienteCompra) throws Exception {
         System.out.println("Pedido de Compra");
         Thread.sleep(200);
         System.out.println("---------------------");

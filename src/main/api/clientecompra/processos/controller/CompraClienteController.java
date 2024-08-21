@@ -9,11 +9,11 @@ import main.api.utils.exceptions.ValidacaoCadastroException;
 public class CompraClienteController {
 
     public InformacoesCompraDTO cadastrarIngresso() throws ValidacaoCadastroException  {
-        return new ClienteCompraHelper().cadastrarPedido();
+        return new ClienteCompraHelper().cadastrarIngresso();
     }
 
-    public void imprimirPedido(ClienteCompra clienteCompra) throws Exception {
-        CompraClientePrinter.imprimirPedido(clienteCompra);
+    public void imprimirIngresso(ClienteCompra clienteCompra) throws Exception {
+        CompraClientePrinter.imprimirIngresso(clienteCompra);
     }
 
 }

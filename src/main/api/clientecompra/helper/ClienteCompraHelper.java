@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class ClienteCompraHelper {
 
-    public InformacoesCompraDTO cadastrarPedido() throws ValidacaoCadastroException {
+    public InformacoesCompraDTO cadastrarIngresso() throws ValidacaoCadastroException {
         Scanner scanner = new Scanner(System.in);
         try  {
             System.out.println("***********************");
